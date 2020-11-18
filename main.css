@@ -1,0 +1,41 @@
+body{
+    background-color: #100e17;
+}
+
+.main-heading {
+    color:#ffd662ff;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.sub-heading {
+    color:#ffd662ff;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.metals-container{
+    margin-left: 400px;
+    display: grid;
+}
+
+.page-content{
+    color: #ffd662ff;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1r 3fr;
+    gap: 10px
+}
+
+.gold-karats{
+    color:#ffd662ff;
+}
+
+.weight-buy-profit{
+    grid-column-start: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
