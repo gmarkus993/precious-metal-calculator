@@ -1,0 +1,24 @@
+.page-container {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-areas: "nav nav";
+    grid-template-rows: 50 1fr 30px;
+    grid-template-columns: 150px 1fr;
+    gap: 1%;
+}    
+    
+.page-container > footer { 
+        }
+
+
+.weight-buy-profit {
+
+    
+
+ 
+}
+.gold-karats{
+    background-color: gold;
+}
+

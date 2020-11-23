@@ -1,0 +1,45 @@
+#page {
+    display: grid;
+    width: 100%;
+    height: 600px;
+    grid-template-areas: "head head"
+                         "nav  main"
+                         "nav  foot";
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+  }
+  
+  #page > header {
+    grid-area: head;
+    background-color:grey;
+  }
+  
+  #page > nav {
+    grid-area: nav;
+    background-color: gold;
+  }
+  
+  #page > main {
+    grid-area: main;
+    background-color: blue;
+    display: grid;
+    gap: 3px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  #page > main > .input-container {
+     display: grid;
+     height: 100px;
+     width: 100px;
+     align-items: flex-start;
+      
+
+  }
+  
+  #page > footer {
+    grid-area: foot;
+    background-color: grey;
+  }
+
